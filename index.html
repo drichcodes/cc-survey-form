@@ -4,4 +4,96 @@
         <title></title>
         <link rel="stylesheet" href="css/main.css">
     </head>
+    <body>
+        <main id="main">
+            <h1 id="title">Metal Fans Survey Form</h1>
+            <p id="description"> How much do you like the metal genre? </p>
+            
+            <div class="main-content">
+              <div id="form-content">
+                <form id="survey-form">
+                  <label for="name-label" id="name-label">Name</label>
+                  <input id="name-label" type="text" required placeholder="Enter your name"/>
+                  
+                  <label for="email-label" id="email-label">Email</label>
+                  <input id="email-label" type="email" required placeholder="Enter your Email"/>
+                  
+                  <label for="number-label" id="age-label">Age (optional)</label>
+                  <input id="number-label" type="number" min="0" max="65" required placeholder="Age" />
+                  
+                  <label for="dropdown">Your answer</label>
+                  <select id="dropdown">
+                    <option value="live">I breath it \m/</option>
+                    <option value="love">I love it</option>
+                    <option value="sometimes">I listen to it sometimes</option>
+                    <option value="hate">I hate it</option>
+                  </select>
+                  
+                  <fieldset>
+                    <legend>How often do you listen to metal?</legend>
+                    
+                    <input id="everyday" type="radio" name="listen" checked>
+                    <label for="everyday">Everyday</label><br>
+                    
+                    <input id="weekly" type="radio" name="listen">
+                    <label for="weekly">Once a week</label><br>
+                    
+                    <input id="monthly" type="radio" type="radio" name="listen">
+                    <label for="monthly">Once a month</label><br>
+                    
+                    <input id="none" type="radio" type="radio" name="listen">
+                    <label for="none" >I don't listen to it</label>
+                  </fieldset>
+                  
+                  <p>Which metal bands do you listen to?</p>
+                  <input type="checkbox" id="tallica" name="tallica" value="tallica" >
+                  <label for="tallica">Metallica</label>
+                  <input type="checkbox" id="dream" name="dream" value="dream" >
+                  <label for="dream">Dream Theater</label>
+                  <input type="checkbox" id="megadeth" name="megadeth" value="megadeth" >
+                  <label for="megadeth">Megadeth</label>
+                  <input type="checkbox" id="sabbath" name="sabbath" value="sabbath" >
+                  <label for="sabbath">Black Sabbath</label>
+                  <input type="checkbox" id="judas" name="judas" value="judas" >
+                  <label for="judas">Judas Priest</label>
+                  <input type="checkbox" id="iron" name="iron" value="iron" >
+                  <label for="iron">Iron Maiden</label>
+                  <input type="checkbox" id="slayer" name="slayer" value="slayer" >
+                  <label for="slayer">Slayer</label>
+                  <input type="checkbox" id="ledzep" name="ledzep" value="ledzep" >
+                  <label for="ledzep">Led Zeppelin</label>
+                  <input type="checkbox" id="pantera" name="pantera" value="pantera" >
+                  <label for="pantera">Pantera</label>
+                  <input type="checkbox" id="tool" name="tool" value="tool" >
+                  <label for="tool">Tool</label>
+                  <input type="checkbox" id="a7x" name="a7x" value="a7x" >
+                  <label for="a7x">Avenged Sevenfold</label>
+                  <input type="checkbox" id="children" name="children" value="children" >
+                  <label for="children">Children of Bodom</label>
+                  <input type="checkbox" id="sepultura" name="sepultura" value="sepultura" >
+                  <label for="sepultura">Sepultura</label>
+                  <input type="checkbox" id="lamb" name="lamb" value="lamb" >
+                  <label for="lamb">Lamb of God</label>
+                  <input type="checkbox" id="exodus" name="exodus" value="exodus" >
+                  <label for="exodus">Exodus</label>
+                  <input type="checkbox" id="testament" name="testament" value="testament" >
+                  <label for="testament">Testament</label>
+                  <input type="checkbox" id="slipknot" name="slipknot" value="slipknot" >
+                  <label for="slipknot">Slipknot</label>
+                  <input type="checkbox" id="anthrax" name="anthrax" value="anthrax" >
+                  <label for="anthrax">Anthrax</label>
+                  <input type="checkbox" id="system" name="system" value="system" >
+                  <label for="system">System of a Down</label>
+                  <input type="checkbox" id="motor" name="motor" value="motor" >
+                  <label for="motor">Motorhead</label>
+                  
+                  <label for="comment">What other metal bands that are not listed here do you listen to? comment below.</label>
+                  <textarea rows="5" cols="20" id="comment" placeholder="...enter their names here."></textarea>
+                  
+                  <button type="submit" id="submit">Submit</button>
+                </form>
+              </div>      
+            </div>
+          </main>
+    </body>
 </html>
